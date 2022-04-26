@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-content{
+    width: 100%;
+    background-color: transparent;
+    margin: 0px auto;
+}
+.container{
+    margin: 0px auto;
+}
+.container p,h1{
+    font-size: 32px;
+}
+.container .line
+{
+    width: 10%;
+    height: 1px;
+    background-color: orange;
+    margin-top: 25px;
+}
+
+.description{
+    width: 50%;
+    margin-top: 25px;
+}
+.span{
+    font-size: 14px;
+}
+.services{
+    margin-top: 25px;
+}
+.services .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 45%;
+    display: flex;
+    margin-top: 20px;
+}
+.images{
+    width: 40%;
+}
+.images img{
+    width: 90%;
+    height: 150px;
+}
+.desc{
+    width: 35%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .box{
+        width: 90%;
+    }
+    .descriptions{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .begin{
+        width: 50%;
+        margin: 0px auto;
+    }
+    .descriptions .container .line{
+        margin-left: 30%;
+    }
+    .description{
+        width: 90%;
+        margin-top: 25px;
+    }
+    .description{
+        width: 90%;
+        margin: 25px auto;
+    }
+    .desc span{
+        height: 150px;
+    }
+}
